@@ -93,12 +93,12 @@ export default function TextForm(propos){
 			<div className="mb-3">
 			  <textarea className={`form-control text-${propos.textc}`}  onChange={handlechange} id="exampleFormControlTextarea1" rows="12" value={text} style={{backgroundColor : propos.textf}}></textarea>
 			</div>
-			<button className={`btn btn-${propos.bttn} `}onClick={handleclick}> Convert to Upper Case  </button>
-			<button className={`btn btn-${propos.bttn} mx-2`} onClick={handlelower} > Convert to Lower Case </button>
-			<button className={`btn btn-${propos.bttn} mx-2`} onClick={Captalized} > Captalized the String  </button>
-			<button className={`btn btn-${propos.bttn} mx-2`}onClick={puctuation} > Removepunctutation  </button>
-			<button className={`btn btn-${propos.bttn} mx-2`} onClick={clear} > Clear Text  </button>
-			<button className={`btn btn-${propos.bttn} mx-2`} onClick={copytext} > {copytext1}  </button>
+			<button className={`btn btn-${propos.bttn} my-2`}onClick={handleclick}> Convert to Upper Case  </button>
+			<button className={`btn btn-${propos.bttn} mx-2 my-2`} onClick={handlelower} > Convert to Lower Case </button>
+			<button className={`btn btn-${propos.bttn} mx-2 my-2`} onClick={Captalized} > Captalized the String  </button>
+			<button className={`btn btn-${propos.bttn} mx-2 my-2`}onClick={puctuation} > Removepunctutation  </button>
+			<button className={`btn btn-${propos.bttn} mx-2 my-2`} onClick={clear} > Clear Text  </button>
+			<button className={`btn btn-${propos.bttn} mx-2 my-2`} onClick={copytext} > {copytext1}  </button>
 
 
 
